@@ -1,0 +1,43 @@
+let mapleader=' '
+
+set hlsearch
+set ignorecase
+set smartcase
+set incsearch
+set showmode
+set clipboard=unnamed
+set number
+set scrolloff=5
+
+nnoremap h i
+nnoremap H I
+noremap i gk
+noremap k gj
+noremap j h
+nnoremap J 5h
+nnoremap L 5l
+nnoremap I 5gk
+nnoremap K 5gj
+
+
+nnoremap n nzz
+nnoremap N Nzz
+
+nnoremap s <nop>
+nnoremap S <nop>
+
+
+nnoremap <Leader>c :nohlsearch<CR>
+nnoremap <Leader>cc :action Generate<CR>
+
+
+
+
+
+
+
+
+
+
+
+
