@@ -1,4 +1,4 @@
-# 一些设置的记录
+# 一些设置的记录（2018.1版）
 
 #### 搜索 font （设置字体）
 
@@ -31,7 +31,7 @@
 #### 搜索completion（设置忽略大小写）
 
 - 找到 Editor 下的 General 下的 Code Completion ，找到 ：case sensitive completion，这句话翻译是：区分大小写的完成。修改为None即可忽略大小写，如果是 fist letter的话，就是首字母要区分大小写，也就是说：如果大小写不对的话，提示的代码补全就没有。
-- 找到：insert selected vairant by typing dot。。。当输入点，空格等，就会提示代码补全。
+- 找到：insert selected vairant by typing dot。。。当输入点，空格等，就会提示代码补全。（**这个不用设置，空格键被占用，不方便输入**）
 
 #### 搜索 method （设置方法间的分隔线）
 
@@ -73,3 +73,13 @@
 #### 搜索typo （取消拼写检查）
 
 - 拼写检查有波浪线，鼠标放上去会有提示的：typo xxx，直接找到 Editor 下的 Inspectons 下面的 Spelling 下面的 typo，取消掉这个勾就可以了。typo 翻译为印刷工。
+
+
+
+#### 搜索basic（修改自动提示快捷键）
+
+- 修改自动提示的快捷键（就是按了就有代码提示的快捷键），IDEA默认的是Ctrl + Space，eclipse中默认是: Alt + / ，如果想要修改为Alt + /  ，在搜索结果中找到：keymap，中的 code/completion/Basic  修改即可。
+
+#### 搜索browser（修改浏览器设置）
+
+- 找到tools下的 Web Browser ，进行设置即可。
